@@ -1,0 +1,13 @@
+@media screen and (max-width: 576px) {
+  .navbar-list-banner{
+    display: none;
+  }
+  .hamburger-menu-container{
+    display: block;
+     color: white;
+  font-size: 40px;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  
+}
