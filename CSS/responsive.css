@@ -1,13 +1,19 @@
 @media screen and (max-width: 576px) {
+  .navbar-banner,
+  .header-container{
+    flex-direction: column;
+  }
+  .header-healthy h3{
+    font-size: 2rem;
+    
+  }
   .navbar-list-banner{
     display: none;
   }
   .hamburger-menu-container{
-    display: block;
-     color: white;
+  display: block;
+  color: white;
   font-size: 40px;
   }
-}
-@media screen and (min-width: 576px) and (max-width: 992px) {
   
 }
