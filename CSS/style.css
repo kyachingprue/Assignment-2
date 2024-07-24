@@ -87,9 +87,8 @@ body{
 }
 .header-healthy h3{
   font-weight: 900;
-  font-size: 4.88rem;
+  font-size: 4.875rem;
   color: white;
-  line-height: 5.82rem;
   margin-bottom: 1.75rem;
 }
 .header-heathy p{
@@ -99,9 +98,8 @@ body{
   margin-bottom: 1.69rem;
 }
 .header-btn-primary{
-  display: gird;
-  margin-top: 1rem;
-  grid-template-rows: repeat(2, 1fr);
+  display: flex;
+  margin-top: 1.75rem;
 }
 .btn-first{
   font-weight: 600;
