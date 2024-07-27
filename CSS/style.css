@@ -311,7 +311,8 @@ width: 50%;
 }
 .content-container{
   border: 2px solid gray;
-  
+  width: 100%;
+  height: 7.3rem;
 }
 .content-container h3{
   font-weight: 900;
@@ -327,10 +328,11 @@ width: 50%;
 /* calculator styles ends */
 /* BMI calculator styles starts */
 .bmi-calculator{
-  max-weight: 100%;
+  max-width: 100%;
   height: 32rem;
   margin: 0 auto;
   margin-top: 5.2rem;
+  padding-top: 1rem;
   background-color: rgba(34,34,34,1);
 }
 .bmi-container{
@@ -344,7 +346,7 @@ width: 50%;
 /* table property starts */
 .bmi-chart{
   color: white;
-  margin-top: 3.2rem;
+  margin-top: 3rem;
 }
 .bmi-chart h4{
   font-weight: 900;
@@ -353,7 +355,7 @@ width: 50%;
 .chart-property table{
   width: 33rem;
   height: 13rem;
-  margin-top: 3.2rem;
+  margin-top: 3rem;
 }
 /* table property ends */
 /* Application property starts */
@@ -374,56 +376,38 @@ width: 50%;
   margin-top: 1rem;
   color: rgba(255, 255, 255, 0.5);
 }
-.application{
-  width: 100%;
+.new-application{
+  color: rgba(255, 255, 255, 0.6);
+   width: 100%;
   height: 10.5rem;
   margin: 0 auto;
-  margin-top: 2.1rem;
- 
+  margin-top: 1rem; 
 }
-.application input{
-   background-color: rgba(255, 255, 255, 0.1);
-   color: rgba(255, 255, 255, 0.6);
+form{
+display: grid;
+grid-template-columns: repeat(2,2fr);
 }
-.application select{
-   background-color: rgba(255, 255, 255, 0.1);
-   color: rgba(255, 255, 255, 0.6);
+.new-file input{
+  width: 99%;
+  gap: 1rem;
+  border-radius: 0.2rem;
+  height: 2rem;
 }
-
-.label-input input{
-  width: 48%;
-  height: 3rem;
-  border: none;
-  border-radius: 0.5rem;
-  padding: 0.75rem 2.5rem 0.75rem 2.5rem;
+.select-property .new-select{
+  width: 99%;
+  height: 2rem;
+  border-radius: 0.2rem;
 }
-.label-input-1 input{
-  margin-top: 0.5rem;
-   width: 48%;
-  height: 3rem;
-  border: none;
-  color: rgba(255, 255, 255, 0.6);
-  border-radius: 0.5rem;
-  padding: 0.75rem 2.5rem 0.75rem 2.5rem;
-}
-.select-option-1{
-  width: 49%;
-  height: 3rem;
-  border: none;
-  margin-top: 0.8rem;
-  border-radius: 0.5rem;
-  padding: 0.75rem 2.5rem 0.75rem 2.5rem;
-}
-.select-option-2{
-  width: 100%;
-  height: 3rem;
-  border: none;
-  margin-top: 0.8rem;
-  border-radius: 0.5rem;
+.select-option{
+max-width: 100%;
+height: 2rem;
+border: none;
+margin-top: 0.8rem;
+border-radius: 0.2rem;
  
 }
 .calculator-btn-primary button{
- font-width: 600;
+ font-weight: 600;
  font-size: 1rem;
  padding: 0.8rem 2.5rem 0.8rem 2.5rem;
  border-radius: 2.6rem;
@@ -431,3 +415,150 @@ width: 50%;
  background-color: rgba(230, 83, 60, 1);
 }
 /* Application property ends */
+/* team section styles starts */
+#team-section{
+  max-width: 80%;
+  height: 50rem;
+  margin: 0 auto;
+  margin-top: 6rem;
+  border: 2px solid red;
+}
+
+.team-content{
+  width: 70%;
+  height: 8rem;
+  margin: 0 auto;
+  border: 2px solid gray;
+  text-align: center;
+}
+.team-content h3{
+  font-weight: 900;
+  font-size: 3rem;
+  color: rgba(255, 255, 255, 1);
+
+}
+.team-content p{
+  font-weight: 400;
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 0.8rem;
+}
+.team-img-section{
+  width: 100%;
+  height: 38rem;
+  margin: 0 auto;
+  border: 2px solid aqua;
+  margin-top: 3.6rem;
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+}
+.cameron{
+  width: 22rem;
+  height: 16rem;
+  margin: 1.5rem;
+  position: relative;
+}
+.cameron img{
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+  
+}
+.all-title{
+  color:rgba(255, 255, 255, 1);
+  font-weight: 900;
+  font-size: 1.3rem;
+  position: absolute;
+  top: 12rem;
+  left: 1.2rem; 
+}
+.all-description{
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 400;
+  font-size: 0.8rem;
+  position: absolute;
+  top: 13.6rem;
+  left: 1.2rem; 
+}
+/* team section styles ends */
+/* Footer section styles starts */
+.footer-section{
+  max-width: 100%;
+  height: 32rem;
+  margin: 0 auto;
+  border: 2px solid tomato;
+  margin-top: 6rem;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.footer-container{
+  width: 80%;
+  height: 27rem;
+  margin: 0 auto;
+  margin-top: 4.5rem;
+  border: 2px solid greenyellow;
+}
+.footer-content{
+  width: 100%;
+  height: 16rem;
+  margin: 0 auto;
+  display: flex;
+  border: 2px solid rgb(29, 43, 29);
+  margin-bottom: 5rem;
+}
+.footer-content-property{
+  width: 50%;
+  height: 15.9rem;
+  border: 2px solid aliceblue;
+}
+.footer-title-description{
+  width: 80%;
+  height:11rem;
+  border: 2px solid skyblue;
+}
+.footer-title-description h3{
+  font-weight: 800;
+  font-size: 5rem;
+  color: rgba(230, 83, 60, 1);
+}
+.footer-title-description p{
+  font-weight: 400;
+  font-size: 0.9rem;
+  margin-top: 1.25rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+.footer-main-property{
+  width: 50%;
+  height: 15.9rem;
+  border: 2px solid azure;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-service-property{
+  width: 36%;
+  height: 15.8rem;
+  border: 2px solid gold;
+}
+.footer-service-property h4{
+  font-weight: 700;
+  font-size: 2rem;
+  color:rgba(255, 255, 255, 1);
+}
+.footer-service-property p{
+  font-weight: 400;
+  font-size: 1rem;
+  margin-top: 2rem;
+  color:rgba(255, 255, 255, 0.5);
+}
+.footer-copyright-section-property{
+  width: 40%;
+  height: 1.5rem;
+  margin: 0 auto;
+  border: 2px solid antiquewhite;
+  margin-top: 2.4rem;
+}
+.footer-copyright-section-property p{
+  font-weight: 400;
+  font-size: 1.2rem;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+}

@@ -1,12 +1,16 @@
 @media screen and (max-width: 576px) {
   .header-container,
   .main-image-property,
-  .run-content-container{
+  .run-content-container,
+  .bmi-container,
+  .team-img-section,
+  .footer-content,
+  .footer-main-property{
     flex-direction: column;
   }
    /* navbar styles starts */
    .navbar-content{
-    max-width: 100%;
+    max-width: 90%;
     height: 72rem;
     margin: 0 auto;
     border: 2px solid red;
@@ -61,7 +65,7 @@
   /* header styles ends */
   /* main styles starts */
   .main-container{
-   max-width: 92%;
+   max-width: 90%;
     height: 82rem;
     margin: 0 auto;
     margin-top: 0.1rem;
@@ -131,5 +135,152 @@
     height: 15rem;
     margin-top: 2rem;
 
+  }
+  /* calculator styles starts */
+  .calculator{
+    max-width: 92%;
+    height: 8rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+  }
+  .content-container{
+    width: 100%;
+    height: 7.8rem;
+  }
+  /* calculator styles ends */
+  /* BMI calculator styles starts */
+  .bmi-calculator{
+    max-width: 90%;
+    height: 50rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+  }
+  .bmi-container{
+    width: 90%;
+    height: 46rem;
+    margin: 0 auto;
+    margin-top: 1rem;
+  }
+  .chart-property{
+    width: 100%;
+    height: 12rem;
+  }
+  .chart-property table{
+    width: 100%;
+    height: 13.5rem;
+    margin-top: 1.5rem;
+  }
+  .bmi-calculate{
+    width: 100%;
+    height: 25rem;
+    margin: 0 auto;
+  }
+  .bmi-calculate h4{
+    font-weight: 900;
+    font-size: 1rem;
+  }
+  .bmi-calculate p{
+    font-size: 400;
+    font-size: 0.8rem;
+    margin-top: 0.8rem;
+  }
+  .new-application{
+    margin-top: 2.2rem;
+
+  }
+  /* BMI calculator styles ends */
+  /* Team section styles starts */
+  #team-section{
+    max-width: 90%;
+    height: 125rem;
+    margin: 0 auto;
+    margin-top: 1rem;
+  }
+  .team-content{
+    width: 90%;
+    height: 7.75rem;
+    margin-top: 3rem;
+    text-align: center;
+  }
+  .team-content h3{
+    font-weight: 900;
+    font-size: 2rem;
+  }
+  .team-content p{
+    font-weight: 400;
+    font-size: 0.8rem;
+    margin-top: 0.8rem;
+  }
+  .team-img-section{
+    display: grid;
+    grid-template-columns: repeat(1, 6fr);
+    width: 90%;
+    height: 75rem;
+    margin: 0 auto;
+    margin-top: 3.6rem;
+    gap: 1.2rem;
+  }
+  .team-img-section .cameron{
+    width: 100%;
+    height: 17rem;
+    margin: 0 auto;
+   
+  }
+  /* Team section styles ends */
+  /* Footer section styles starts */
+  .footer-section{
+    max-width: 90%;
+    height: 63.3rem;
+    margin: 0 auto;
+    margin-top: 4rem;
+  }
+  .footer-container{
+    width: 100%;
+    height: 60rem;
+    margin: 0 auto;
+    margin-top: 3rem;
+  }
+  .footer-content{
+    width: 100%;
+    height: 47rem;
+    margin: 0 auto;
+    margin-bottom: 4.5rem;
+  }
+  .footer-content-property{
+    width: 100%;
+    height: 15rem;
+    margin: 0 auto;
+  }
+  .footer-title-description{
+    width: 90%;
+    height: 12.5rem;
+  }
+  .footer-title-description h3{
+   font-weight: 800;
+   font-size: 4.4rem;
+  }
+  .footer-title-description p{
+    font-weight: 400;
+    font-size: 1rem;
+  }
+  .footer-main-property{
+    width: 100%;
+    height: 32.4rem;
+    margin: 0 auto;
+  }
+  .footer-service-property{
+    width: 60%;
+    height: 16rem;
+    
+  }
+  .footer-copyright-section-property{
+    width: 80%;
+    height: 1.5rem;
+    margin: 0 auto;
+    margin-top: 3rem;
+  }
+  .footer-copyright-section-property p{
+    font-weight: 400;
+    font-size: 1rem;
   }
 }
