@@ -5,14 +5,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Assignment-2</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="/CSS/style.css">
   <link rel="stylesheet" href="CSS/responsive.css">
 </head>
 
 <body>
+  <!-- navigation styles starts -->
   <section>
     <nav class="navbar-content">
       <div class="navbar-banner">
@@ -29,27 +27,43 @@
           <i class="fa-solid fa-bars"></i>
         </div>
       </div>
-      <!-- This is header section -->
-      <div class="header-container">
+    </nav>
+  </section>
+  <!-- navigation styles ends -->
+  <!-- Header styles starts -->
+  <section>
+    <div class="header-container">
+      <div class="header-content-container">
         <div class="header-banner">
-          <div class="header-healthy">
-            <h4>Get body in <span class="font-styles">ohape &</span>stay healthy</h4>
-            <p>A huge selection of health and fitness content, healthy recipes and transformation stories to help you
-              get fit and sta fit!
-            </p>
-            <div class="header-btn-primary">
-              <button class="btn-first">Join Club Now</button>
-              <button class="btn-second">Download App</button>
+          <h3>Get body in <span class="styles-property"><em>ohape</em></span> & stay healthy</h3>
+          <p>A huge selection of health and fitness content, healthy recipes and transformation stories to help you get
+            fit and stay
+            fit!</p>
+          <div class="header-btn-primary">
+            <button class="first"><a href="" target="_blank">join Club Now!</a></button>
+            <button class="second"><a href="" target="_blank"> Download App</a></button>
+          </div>
+        </div>
+        <div class="header-images-property">
+          <div class="header-img">
+            <img src="/images/Images 2.png" alt="boy images property">
+          </div>
+          <div class="background-styles">
+            <h4>500+</h4>
+            <p>Free workout Videos</p>
+          </div>
+          <div class="background-styles-second">
+            <div class="circle"></div>
+            <div class="title">
+              <h4>350+</h4>
+              <p>Video tutorial</p>
             </div>
           </div>
         </div>
-        <div class="header-image-property">
-          <img src="images/Images 2.png" alt="This is body builder images">
-        </div>
       </div>
-    </nav>
+    </div>
   </section>
-  <!-- header section ends -->
+  <!-- Header styles ends -->
   <!-- main section starts -->
   <section>
     <div class="main-container">
@@ -122,6 +136,8 @@
       </div>
     </div>
   </section>
+  <!-- run container section ends -->
+  <!-- Calculator styles starts -->
   <section>
     <div class="calculator">
       <div class="content-container">
@@ -130,11 +146,14 @@
       </div>
     </div>
   </section>
+  <!-- calculator styles ends -->
+  <!-- BMI Calculator styles starts -->
   <section>
     <div class="bmi-calculator">
       <div class="bmi-container">
         <div class="bmi-chart">
           <h4>BMI Calculator Chart</h4>
+          <!-- table styles starts -->
           <div class="chart-property">
             <table border="1">
               <tr>
@@ -158,25 +177,29 @@
                 <td>Obese</td>
               </tr>
             </table>
+            <!-- table styles ends -->
           </div>
         </div>
         <div class="bmi-calculate">
           <h4>Calculate your BMI</h4>
           <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.
           </p>
+          <!-- Application styles starts -->
           <div class="new-application">
-            <form>
-              <label class="new-file">
-                <input type="text" id="" placeholder="Height/cm">
-              </label>
-              <label class="new-file">
-                <input type="text" id="" placeholder="Weight/kg">
-              </label>
-              <label class="new-file">
-                <input type="text" id="" placeholder="Age">
-              </label>
-              <div class="select-property">
-                <select class="new-select">
+            <form class="form-property">
+              <div class="form-application">
+                <label class="height">
+                  <input type="text" id="" placeholder="Height/cm">
+                </label>
+                <label class="weight">
+                  <input type="text" id="" placeholder="Weight/kg">
+                </label>
+              </div>
+              <div class="select-application">
+                <label class="age">
+                  <input type="text" id="" placeholder="Age">
+                </label>
+                <select class="sex">
                   <option>Sex</option>
                 </select>
               </div>
@@ -185,6 +208,7 @@
               </select>
             </form>
           </div>
+          <!-- Application styles ends -->
           <div class="calculator-btn-primary">
             <button>Calculate</button>
           </div>
@@ -192,7 +216,7 @@
       </div>
     </div>
   </section>
-  <!-- run container styles ends -->
+  <!-- BMI Calculator styles ends-->
   <!-- Team section styles starts -->
   <section>
     <div id="team-section">
@@ -202,6 +226,7 @@
           <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.
           </p>
         </div>
+        <!-- team images section starts -->
         <div class="team-img-section">
           <div class="cameron">
             <img src="images/trainer1.png" alt="jerome bell img">
@@ -234,9 +259,12 @@
             <div class="all-description">Trainer</div>
           </div>
         </div>
+        <!-- Team images section ends -->
       </div>
     </div>
   </section>
+  <!-- Team section style ends -->
+  <!-- Footer section starts -->
   <section>
     <div class="footer-section">
       <div class="footer-container">
@@ -273,6 +301,7 @@
       </div>
     </div>
   </section>
+  <!-- Footer section styles ends -->
 </body>
 
 </html>
