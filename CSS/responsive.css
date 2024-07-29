@@ -1,93 +1,93 @@
 @media screen and (max-width: 576px) {
-  .header-content-container,
-  .main-image-property,
-  .run-content-container,
-  .bmi-container,
-  .team-img-section,
-  .footer-content,
-  .footer-main-property{
-    flex-direction: column;
+ .header-content-container,
+ .main-image-property,
+ .run-content-container,
+ .bmi-container,
+ .team-img-section,
+ .footer-content,
+ .footer-main-property{
+  flex-direction: column;
   }
-   /* navbar styles starts */
-   .navbar-content{
-    max-width: 90%;
-    height: 43px;
-    margin: 0 auto;
-    margin-top: 3.25rem;
-    border: 2px solid red;
+  /* navbar styles starts */
+  .navbar-content{
+  max-width: 90%;
+  height: 43px;
+  margin: 0 auto;
+  margin-top: 3.25rem;
+  border: 2px solid red;
    }
   .navbar-banner{
-    width: 90%;
+  width: 90%;
   }
   .navbar-list-banner{
-    display: none;
+  display: none;
   }
   .hamburger-menu-container{
-    display: block;
-    font-size: 2rem;
-    color: white;
+  display: block;
+  font-size: 2rem;
+  color: white;
   }
   /* navbar styles ends */
   /* header styles starts */
   .header-container{
-    width: 100%;
-    height: 950px;
-    margin: 0 auto;
-    margin-top: 3.2rem;
+  width: 100%;
+  height: 950px;
+  margin: 0 auto;
+  margin-top: 3.2rem;
   }
   .header-content-container{
-    width: 80%;
-    height: 945px;
-    margin: 0 auto;
+  width: 80%;
+  height: 945px;
+  margin: 0 auto;
   }
   .header-banner{
-    width: 100%;
-    height: 260px;
-    margin: 0 auto;
-    margin-top: 1rem;
+  width: 100%;
+  height: 260px;
+  margin: 0 auto;
+  margin-top: 1rem;
   }
   .header-banner h3{
-    font-weight: 900;
-    font-size: 2.2rem;
+  font-weight: 900;
+  font-size: 2.2rem;
   }
   .header-banner p{
-   font-weight: 400;
-   font-size: 1rem;
+  font-weight: 400;
+  font-size: 1rem;
   }
   .header-btn-primary{
-    width: 100%;
-    height: 52px;
-    margin: 0 auto;
-    margin-top: 1.75rem;
+  width: 100%;
+  height: 52px;
+  margin: 0 auto;
+  margin-top: 1.75rem;
   }
   .first{
-   width: 50%;
-   height: 50px;
+  width: 50%;
+  height: 50px;
   }
   .first a{
-    font-weight: 600;
-    font-size: 0.8rem;
-    padding: 0.8rem 2rem 0.8rem 2rem;
+  font-weight: 600;
+  font-size: 0.8rem;
+  padding: 0.8rem 2rem 0.8rem 2rem;
   }
   .second{
-    width: 50%;
-    height: 50px;
+  width: 50%;
+  height: 50px;
   }
   .second a{
-    font-weight: 600;
-    font-size: 0.8rem;
-     padding: 0.8rem 2rem 0.8rem 2rem;
+  font-weight: 600;
+  font-size: 0.8rem;
+  padding: 0.8rem 2rem 0.8rem 2rem;
   }
   .header-images-property{
-    width: 100%;
-    height: 588px;
-    margin: 0 auto;
-    margin-top: 1rem;
+  width: 100%;
+  height: 588px;
+  margin: 0 auto;
+  margin-top: 1rem;
   }
   .header-img{
-    width: 90%;
-    height: 588px;
-    margin: 0 auto;
+  width: 90%;
+  height: 588px;
+  margin: 0 auto;
   }
   .background-styles{
   width: 145px;
@@ -97,12 +97,12 @@
   left: 14.5rem;
   }
   .background-styles h4{
-    font-weight: 900;
-    font-size: 1.9rem;
+  font-weight: 900;
+  font-size: 1.9rem;
   }
   .background-styles p{
-    font-weight: 400;
-    font-size: .5rem;
+  font-weight: 400;
+  font-size: .5rem;
   }
   .background-styles-second{
   width: 155px;
@@ -112,244 +112,240 @@
   right: 14rem;
   }
   .circle{
-    width: 30px;
-    height: 30px;
-    margin-top:1.3rem;
-    margin-left: 1rem;
+  width: 30px;
+  height: 30px;
+  margin-top:1.3rem;
+  margin-left: 1rem;
   }
   .title{
-    width: 82px;
-    height: 43px;
-    margin-top: 0.9rem;
-    margin-left: .6rem;
+  width: 82px;
+  height: 43px;
+  margin-top: 0.9rem;
+  margin-left: .6rem;
   }
   .title h4{
-    font-weight: 900;
-    font-size: 1.1rem;
+  font-weight: 900;
+  font-size: 1.1rem;
   }
   .title p{
-    font-weight: 400;
-    font-size: 0.75rem;
+  font-weight: 400;
+  font-size: 0.75rem;
   }
   /* header styles ends */
   /* main styles starts */
   .main-container{
-   max-width: 90%;
-    height: 82rem;
-    margin: 0 auto;
-    margin-top: 0.1rem;
+  max-width: 90%;
+  height: 82rem;
+  margin: 0 auto;
+  margin-top: 0.1rem;
   }
   .main-text-property{
-    width: 90%;
-    height: 8rem;
-    margin: 0 auto;
-    gap: 0.8rem;
-    text-align: center;
+  width: 90%;
+  height: 8rem;
+  margin: 0 auto;
+  gap: 0.8rem;
+  text-align: center;
   }
   .main-text-property h3{
-    font-weight: 900;
-    font-size: 2rem;
-    line-height: 2rem;
+  font-weight: 900;
+  font-size: 2rem;
+  line-height: 2rem;
   }
   .main-text-property p{
-    font-weight: 400;
-    font-size: 1rem;
-    line-height: 1.5rem;
-    margin-top: 1.4rem;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-top: 1.4rem;
   }
   .main-image-property{
-    width: 80%;
-   height: 17rem;
-   margin: 0 auto;
-   margin-top: 3rem;
+  width: 80%;
+  height: 17rem;
+  margin: 0 auto;
+  margin-top: 3rem;
   }
   /* main styles ends */
   /* run styles starts */
   .run-container{
-   max-width: 92%;
-    height: 44rem;
-    margin: 0 auto;
-    margin-top: 4rem;
-    background-color: rgba(34,34,34,1);
+  max-width: 92%;
+  height: 44rem;
+  margin: 0 auto;
+  margin-top: 4rem;
+  background-color: rgba(34,34,34,1);
   }
   .run-content-container{
-    width: 80%;
-    height: 40rem;
-    margin: 0 auto;
-    margin-top: 2rem;
+  width: 80%;
+  height: 40rem;
+  margin: 0 auto;
+  margin-top: 2rem;
   }
   .new-div{
-    width: 80%;
-    height: 20.3rem;
-    margin: 0 auto;
-    margin-top: 2rem;
+  width: 80%;
+  height: 20.3rem;
+  margin: 0 auto;
+  margin-top: 2rem;
   }
   .run-title{
-    font-weight: 900;
-    font-size: 2rem;
+  font-weight: 900;
+  font-size: 2rem;
   }
   .run-description{
-    font-weight: 400;
-    font-size: 1rem;
-    margin-top: 1.5rem;
+  font-weight: 400;
+  font-size: 1rem;
+  margin-top: 1.5rem;
   }
   .run-btn-primary button{
-    width: 100%;  
-    margin: 0 auto;
-    margin-top: 0.6rem;
-  
+  width: 100%;  
+  margin: 0 auto;
+  margin-top: 0.6rem;
   }
   .run-image-property{
-    width: 100%;
-    height: 15rem;
-    margin-top: 2rem;
-
+  width: 100%;
+  height: 15rem;
+  margin-top: 2rem;
   }
   /* calculator styles starts */
   .calculator{
-    max-width: 92%;
-    height: 8rem;
-    margin: 0 auto;
-    margin-top: 2rem;
+  max-width: 92%;
+  height: 8rem;
+  margin: 0 auto;
+  margin-top: 2rem;
   }
   .content-container{
-    width: 100%;
-    height: 7.8rem;
+  width: 100%;
+  height: 7.8rem;
   }
   /* calculator styles ends */
   /* BMI calculator styles starts */
   .bmi-calculator{
-    max-width: 90%;
-    height: 50rem;
-    margin: 0 auto;
-    margin-top: 2rem;
+  max-width: 90%;
+  height: 50rem;
+  margin: 0 auto;
+  margin-top: 2rem;
   }
   .bmi-container{
-    width: 90%;
-    height: 46rem;
-    margin: 0 auto;
-    margin-top: 1rem;
+  width: 90%;
+  height: 46rem;
+  margin: 0 auto;
+  margin-top: 1rem;
   }
   .chart-property{
-    width: 100%;
-    height: 12rem;
+  width: 100%;
+  height: 12rem;
   }
   .chart-property table{
-    width: 100%;
-    height: 13.5rem;
-    margin-top: 1.5rem;
+  width: 100%;
+  height: 13.5rem;
+  margin-top: 1.5rem;
   }
   .bmi-calculate{
-    width: 100%;
-    height: 25rem;
-    margin: 0 auto;
+  width: 100%;
+  height: 25rem;
+  margin: 0 auto;
   }
   .bmi-calculate h4{
-    font-weight: 900;
-    font-size: 1rem;
+  font-weight: 900;
+  font-size: 1rem;
   }
   .bmi-calculate p{
-    font-size: 400;
-    font-size: 0.8rem;
-    margin-top: 0.8rem;
+  font-size: 400;
+  font-size: 0.8rem;
+  margin-top: 0.8rem;
   }
   .new-application{
-    margin-top: 2.2rem;
-
+  margin-top: 2.2rem;
   }
   /* BMI calculator styles ends */
   /* Team section styles starts */
   #team-section{
-    max-width: 90%;
-    height: 125rem;
-    margin: 0 auto;
-    margin-top: 1rem;
+  max-width: 90%;
+  height: 125rem;
+  margin: 0 auto;
+  margin-top: 1rem;
   }
   .team-content{
-    width: 90%;
-    height: 7.75rem;
-    margin-top: 3rem;
-    text-align: center;
+  width: 90%;
+  height: 7.75rem;
+  margin-top: 3rem;
+  text-align: center;
   }
   .team-content h3{
-    font-weight: 900;
-    font-size: 2rem;
+  font-weight: 900;
+  font-size: 2rem;
   }
   .team-content p{
-    font-weight: 400;
-    font-size: 0.8rem;
-    margin-top: 0.8rem;
+  font-weight: 400;
+  font-size: 0.8rem;
+  margin-top: 0.8rem;
   }
   .team-img-section{
-    display: grid;
-    grid-template-columns: repeat(1, 6fr);
-    width: 90%;
-    height: 75rem;
-    margin: 0 auto;
-    margin-top: 3.6rem;
-    gap: 1.2rem;
+  display: grid;
+  grid-template-columns: repeat(1, 6fr);
+  width: 90%;
+  height: 75rem;
+  margin: 0 auto;
+  margin-top: 3.6rem;
+  gap: 1.2rem;
   }
   .team-img-section .cameron{
-    width: 100%;
-    height: 17rem;
-    margin: 0 auto;
+  width: 100%;
+  height: 17rem;
+  margin: 0 auto;
    
   }
   /* Team section styles ends */
   /* Footer section styles starts */
   .footer-section{
-    max-width: 90%;
-    height: 63.3rem;
-    margin: 0 auto;
-    margin-top: 4rem;
+  max-width: 90%;
+  height: 63.3rem;
+  margin: 0 auto;
+  margin-top: 4rem;
   }
   .footer-container{
-    width: 100%;
-    height: 60rem;
-    margin: 0 auto;
-    margin-top: 3rem;
+  width: 100%;
+  height: 60rem;
+  margin: 0 auto;
+  margin-top: 3rem;
   }
   .footer-content{
-    width: 100%;
-    height: 47rem;
-    margin: 0 auto;
-    margin-bottom: 4.5rem;
+  width: 100%;
+  height: 47rem;
+  margin: 0 auto;
+  margin-bottom: 4.5rem;
   }
   .footer-content-property{
-    width: 100%;
-    height: 15rem;
-    margin: 0 auto;
+  width: 100%;
+  height: 15rem;
+  margin: 0 auto;
   }
   .footer-title-description{
-    width: 90%;
-    height: 12.5rem;
+  width: 90%;
+  height: 12.5rem;
   }
   .footer-title-description h3{
-   font-weight: 800;
-   font-size: 4.4rem;
+  font-weight: 800;
+  font-size: 4.4rem;
   }
   .footer-title-description p{
-    font-weight: 400;
-    font-size: 1rem;
+  font-weight: 400;
+  font-size: 1rem;
   }
   .footer-main-property{
-    width: 100%;
-    height: 32.4rem;
-    margin: 0 auto;
+  width: 100%;
+  height: 32.4rem;
+  margin: 0 auto;
   }
   .footer-service-property{
-    width: 60%;
-    height: 16rem;
-    
+  width: 60%;
+  height: 16rem; 
   }
   .footer-copyright-section-property{
-    width: 80%;
-    height: 1.5rem;
-    margin: 0 auto;
-    margin-top: 3rem;
+  width: 80%;
+  height: 1.5rem;
+  margin: 0 auto;
+  margin-top: 3rem;
   }
   .footer-copyright-section-property p{
-    font-weight: 400;
-    font-size: 1rem;
+  font-weight: 400;
+  font-size: 1rem;
   }
 }
